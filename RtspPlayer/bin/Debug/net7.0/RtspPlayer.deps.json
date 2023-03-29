@@ -1,0 +1,1214 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "RtspPlayer/1.0.0": {
+        "dependencies": {
+          "Avalonia": "0.10.19",
+          "Avalonia.Desktop": "0.10.19",
+          "Avalonia.Diagnostics": "0.10.19",
+          "FFmpegPlayerSharp": "1.0.0",
+          "OpenGLPlayer": "1.0.0",
+          "XamlNameReferenceGenerator": "1.6.1"
+        },
+        "runtime": {
+          "RtspPlayer.dll": {}
+        }
+      },
+      "Avalonia/0.10.19": {
+        "dependencies": {
+          "Avalonia.Remote.Protocol": "0.10.19",
+          "JetBrains.Annotations": "10.3.0",
+          "System.ComponentModel.Annotations": "4.5.0",
+          "System.Memory": "4.5.5",
+          "System.Reactive": "5.0.0",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0",
+          "System.ValueTuple": "4.5.0"
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/Avalonia.Animation.dll": {
+            "assemblyVersion": "0.10.19.0",
+            "fileVersion": "0.10.19.0"
+          },
+          "lib/netcoreapp2.0/Avalonia.Base.dll": {
+            "assemblyVersion": "0.10.19.0",
+            "fileVersion": "0.10.19.0"
+          },
+          "lib/netcoreapp2.0/Avalonia.Controls.dll": {
+            "assemblyVersion": "0.10.19.0",
+            "fileVersion": "0.10.19.0"
+          },
+          "lib/netcoreapp2.0/Avalonia.DesignerSupport.dll": {
+            "assemblyVersion": "0.7.0.0",
+            "fileVersion": "0.7.0.0"
+          },
+          "lib/netcoreapp2.0/Avalonia.DesktopRuntime.dll": {
+            "assemblyVersion": "0.10.19.0",
+            "fileVersion": "0.10.19.0"
+          },
+          "lib/netcoreapp2.0/Avalonia.Dialogs.dll": {
+            "assemblyVersion": "0.10.19.0",
+            "fileVersion": "0.10.19.0"
+          },
+          "lib/netcoreapp2.0/Avalonia.Input.dll": {
+            "assemblyVersion": "0.10.19.0",
+            "fileVersion": "0.10.19.0"
+          },
+          "lib/netcoreapp2.0/Avalonia.Interactivity.dll": {
+            "assemblyVersion": "0.10.19.0",
+            "fileVersion": "0.10.19.0"
+          },
+          "lib/netcoreapp2.0/Avalonia.Layout.dll": {
+            "assemblyVersion": "0.10.19.0",
+            "fileVersion": "0.10.19.0"
+          },
+          "lib/netcoreapp2.0/Avalonia.Markup.Xaml.dll": {
+            "assemblyVersion": "0.10.19.0",
+            "fileVersion": "0.10.19.0"
+          },
+          "lib/netcoreapp2.0/Avalonia.Markup.dll": {
+            "assemblyVersion": "0.10.19.0",
+            "fileVersion": "0.10.19.0"
+          },
+          "lib/netcoreapp2.0/Avalonia.MicroCom.dll": {
+            "assemblyVersion": "0.10.19.0",
+            "fileVersion": "0.10.19.0"
+          },
+          "lib/netcoreapp2.0/Avalonia.OpenGL.dll": {
+            "assemblyVersion": "0.10.19.0",
+            "fileVersion": "0.10.19.0"
+          },
+          "lib/netcoreapp2.0/Avalonia.Styling.dll": {
+            "assemblyVersion": "0.10.19.0",
+            "fileVersion": "0.10.19.0"
+          },
+          "lib/netcoreapp2.0/Avalonia.Themes.Default.dll": {
+            "assemblyVersion": "0.10.19.0",
+            "fileVersion": "0.10.19.0"
+          },
+          "lib/netcoreapp2.0/Avalonia.Themes.Fluent.dll": {
+            "assemblyVersion": "0.10.19.0",
+            "fileVersion": "0.10.19.0"
+          },
+          "lib/netcoreapp2.0/Avalonia.Visuals.dll": {
+            "assemblyVersion": "0.10.19.0",
+            "fileVersion": "0.10.19.0"
+          },
+          "lib/netcoreapp2.0/Avalonia.dll": {
+            "assemblyVersion": "0.10.19.0",
+            "fileVersion": "0.10.19.0"
+          }
+        }
+      },
+      "Avalonia.Angle.Windows.Natives/2.1.0.2020091801": {
+        "runtimeTargets": {
+          "runtimes/win-arm64/native/av_libglesv2.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "2.1.0.0"
+          },
+          "runtimes/win7-x64/native/av_libglesv2.dll": {
+            "rid": "win7-x64",
+            "assetType": "native",
+            "fileVersion": "2.1.0.0"
+          },
+          "runtimes/win7-x86/native/av_libglesv2.dll": {
+            "rid": "win7-x86",
+            "assetType": "native",
+            "fileVersion": "2.1.0.0"
+          }
+        }
+      },
+      "Avalonia.Controls.DataGrid/0.10.19": {
+        "dependencies": {
+          "Avalonia": "0.10.19",
+          "Avalonia.Remote.Protocol": "0.10.19",
+          "JetBrains.Annotations": "10.3.0",
+          "System.Reactive": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Avalonia.Controls.DataGrid.dll": {
+            "assemblyVersion": "0.10.19.0",
+            "fileVersion": "0.10.19.0"
+          }
+        }
+      },
+      "Avalonia.Desktop/0.10.19": {
+        "dependencies": {
+          "Avalonia": "0.10.19",
+          "Avalonia.Native": "0.10.19",
+          "Avalonia.Skia": "0.10.19",
+          "Avalonia.Win32": "0.10.19",
+          "Avalonia.X11": "0.10.19"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Avalonia.Desktop.dll": {
+            "assemblyVersion": "0.10.19.0",
+            "fileVersion": "0.10.19.0"
+          }
+        }
+      },
+      "Avalonia.Diagnostics/0.10.19": {
+        "dependencies": {
+          "Avalonia": "0.10.19",
+          "Avalonia.Controls.DataGrid": "0.10.19",
+          "Microsoft.CodeAnalysis.CSharp.Scripting": "3.4.0",
+          "System.Reactive": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Avalonia.Diagnostics.dll": {
+            "assemblyVersion": "0.10.19.0",
+            "fileVersion": "0.10.19.0"
+          }
+        }
+      },
+      "Avalonia.FreeDesktop/0.10.19": {
+        "dependencies": {
+          "Avalonia": "0.10.19",
+          "Tmds.DBus": "0.9.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Avalonia.FreeDesktop.dll": {
+            "assemblyVersion": "0.10.19.0",
+            "fileVersion": "0.10.19.0"
+          }
+        }
+      },
+      "Avalonia.Native/0.10.19": {
+        "dependencies": {
+          "Avalonia": "0.10.19"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Avalonia.Native.dll": {
+            "assemblyVersion": "0.10.19.0",
+            "fileVersion": "0.10.19.0"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/osx/native/libAvaloniaNative.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Avalonia.Remote.Protocol/0.10.19": {
+        "runtime": {
+          "lib/netstandard2.0/Avalonia.Remote.Protocol.dll": {
+            "assemblyVersion": "0.10.19.0",
+            "fileVersion": "0.10.19.0"
+          }
+        }
+      },
+      "Avalonia.Skia/0.10.19": {
+        "dependencies": {
+          "Avalonia": "0.10.19",
+          "HarfBuzzSharp": "2.8.2.1-preview.108",
+          "HarfBuzzSharp.NativeAssets.Linux": "2.8.2.1-preview.108",
+          "HarfBuzzSharp.NativeAssets.WebAssembly": "2.8.2.1-preview.108",
+          "SkiaSharp": "2.88.1-preview.108",
+          "SkiaSharp.NativeAssets.Linux": "2.88.1-preview.108",
+          "SkiaSharp.NativeAssets.WebAssembly": "2.88.1-preview.108"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Avalonia.Skia.dll": {
+            "assemblyVersion": "0.10.19.0",
+            "fileVersion": "0.10.19.0"
+          }
+        }
+      },
+      "Avalonia.Win32/0.10.19": {
+        "dependencies": {
+          "Avalonia": "0.10.19",
+          "Avalonia.Angle.Windows.Natives": "2.1.0.2020091801",
+          "System.Drawing.Common": "4.5.0",
+          "System.Numerics.Vectors": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Avalonia.Win32.dll": {
+            "assemblyVersion": "0.10.19.0",
+            "fileVersion": "0.10.19.0"
+          }
+        }
+      },
+      "Avalonia.X11/0.10.19": {
+        "dependencies": {
+          "Avalonia": "0.10.19",
+          "Avalonia.FreeDesktop": "0.10.19",
+          "Avalonia.Skia": "0.10.19"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Avalonia.X11.dll": {
+            "assemblyVersion": "0.10.19.0",
+            "fileVersion": "0.10.19.0"
+          }
+        }
+      },
+      "FFmpeg.AutoGen/4.4.1.1": {
+        "runtime": {
+          "lib/netstandard2.1/FFmpeg.AutoGen.dll": {
+            "assemblyVersion": "4.4.1.1",
+            "fileVersion": "4.4.1.1"
+          }
+        }
+      },
+      "HarfBuzzSharp/2.8.2.1-preview.108": {
+        "dependencies": {
+          "HarfBuzzSharp.NativeAssets.Win32": "2.8.2.1-preview.108",
+          "HarfBuzzSharp.NativeAssets.macOS": "2.8.2.1-preview.108"
+        },
+        "runtime": {
+          "lib/net6.0/HarfBuzzSharp.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "2.8.2.1"
+          }
+        }
+      },
+      "HarfBuzzSharp.NativeAssets.Linux/2.8.2.1-preview.108": {
+        "dependencies": {
+          "HarfBuzzSharp": "2.8.2.1-preview.108"
+        },
+        "runtimeTargets": {
+          "runtimes/linux-arm/native/libHarfBuzzSharp.so": {
+            "rid": "linux-arm",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-arm64/native/libHarfBuzzSharp.so": {
+            "rid": "linux-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-musl-x64/native/libHarfBuzzSharp.so": {
+            "rid": "linux-musl-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libHarfBuzzSharp.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "HarfBuzzSharp.NativeAssets.macOS/2.8.2.1-preview.108": {
+        "runtimeTargets": {
+          "runtimes/osx/native/libHarfBuzzSharp.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "HarfBuzzSharp.NativeAssets.WebAssembly/2.8.2.1-preview.108": {},
+      "HarfBuzzSharp.NativeAssets.Win32/2.8.2.1-preview.108": {
+        "runtimeTargets": {
+          "runtimes/win-arm64/native/libHarfBuzzSharp.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/libHarfBuzzSharp.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/libHarfBuzzSharp.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "JetBrains.Annotations/10.3.0": {
+        "dependencies": {
+          "System.Runtime": "4.1.0"
+        },
+        "runtime": {
+          "lib/netstandard1.0/JetBrains.Annotations.dll": {
+            "assemblyVersion": "10.3.0.0",
+            "fileVersion": "10.3.0.0"
+          }
+        }
+      },
+      "Microsoft.CodeAnalysis.Analyzers/2.9.6": {},
+      "Microsoft.CodeAnalysis.Common/3.4.0": {
+        "dependencies": {
+          "Microsoft.CodeAnalysis.Analyzers": "2.9.6",
+          "System.Collections.Immutable": "1.5.0",
+          "System.Memory": "4.5.5",
+          "System.Reflection.Metadata": "1.6.0",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0",
+          "System.Text.Encoding.CodePages": "4.5.1",
+          "System.Threading.Tasks.Extensions": "4.5.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.CodeAnalysis.dll": {
+            "assemblyVersion": "3.4.0.0",
+            "fileVersion": "3.400.19.56804"
+          }
+        },
+        "resources": {
+          "lib/netstandard2.0/cs/Microsoft.CodeAnalysis.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/netstandard2.0/de/Microsoft.CodeAnalysis.resources.dll": {
+            "locale": "de"
+          },
+          "lib/netstandard2.0/es/Microsoft.CodeAnalysis.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netstandard2.0/fr/Microsoft.CodeAnalysis.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netstandard2.0/it/Microsoft.CodeAnalysis.resources.dll": {
+            "locale": "it"
+          },
+          "lib/netstandard2.0/ja/Microsoft.CodeAnalysis.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/netstandard2.0/ko/Microsoft.CodeAnalysis.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/netstandard2.0/pl/Microsoft.CodeAnalysis.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/netstandard2.0/pt-BR/Microsoft.CodeAnalysis.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/netstandard2.0/ru/Microsoft.CodeAnalysis.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/netstandard2.0/tr/Microsoft.CodeAnalysis.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/netstandard2.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/netstandard2.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Microsoft.CodeAnalysis.CSharp/3.4.0": {
+        "dependencies": {
+          "Microsoft.CodeAnalysis.Common": "3.4.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.CodeAnalysis.CSharp.dll": {
+            "assemblyVersion": "3.4.0.0",
+            "fileVersion": "3.400.19.56804"
+          }
+        },
+        "resources": {
+          "lib/netstandard2.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/netstandard2.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll": {
+            "locale": "de"
+          },
+          "lib/netstandard2.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netstandard2.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netstandard2.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll": {
+            "locale": "it"
+          },
+          "lib/netstandard2.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/netstandard2.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/netstandard2.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/netstandard2.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/netstandard2.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/netstandard2.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/netstandard2.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/netstandard2.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Microsoft.CodeAnalysis.CSharp.Scripting/3.4.0": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0",
+          "Microsoft.CodeAnalysis.CSharp": "3.4.0",
+          "Microsoft.CodeAnalysis.Common": "3.4.0",
+          "Microsoft.CodeAnalysis.Scripting.Common": "3.4.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.CodeAnalysis.CSharp.Scripting.dll": {
+            "assemblyVersion": "3.4.0.0",
+            "fileVersion": "3.400.19.56804"
+          }
+        },
+        "resources": {
+          "lib/netstandard2.0/cs/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/netstandard2.0/de/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll": {
+            "locale": "de"
+          },
+          "lib/netstandard2.0/es/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netstandard2.0/fr/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netstandard2.0/it/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll": {
+            "locale": "it"
+          },
+          "lib/netstandard2.0/ja/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/netstandard2.0/ko/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/netstandard2.0/pl/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/netstandard2.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/netstandard2.0/ru/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/netstandard2.0/tr/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/netstandard2.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/netstandard2.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Microsoft.CodeAnalysis.Scripting.Common/3.4.0": {
+        "dependencies": {
+          "Microsoft.CodeAnalysis.Common": "3.4.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.CodeAnalysis.Scripting.dll": {
+            "assemblyVersion": "3.4.0.0",
+            "fileVersion": "3.400.19.56804"
+          }
+        },
+        "resources": {
+          "lib/netstandard2.0/cs/Microsoft.CodeAnalysis.Scripting.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/netstandard2.0/de/Microsoft.CodeAnalysis.Scripting.resources.dll": {
+            "locale": "de"
+          },
+          "lib/netstandard2.0/es/Microsoft.CodeAnalysis.Scripting.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netstandard2.0/fr/Microsoft.CodeAnalysis.Scripting.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netstandard2.0/it/Microsoft.CodeAnalysis.Scripting.resources.dll": {
+            "locale": "it"
+          },
+          "lib/netstandard2.0/ja/Microsoft.CodeAnalysis.Scripting.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/netstandard2.0/ko/Microsoft.CodeAnalysis.Scripting.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/netstandard2.0/pl/Microsoft.CodeAnalysis.Scripting.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/netstandard2.0/pt-BR/Microsoft.CodeAnalysis.Scripting.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/netstandard2.0/ru/Microsoft.CodeAnalysis.Scripting.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/netstandard2.0/tr/Microsoft.CodeAnalysis.Scripting.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/netstandard2.0/zh-Hans/Microsoft.CodeAnalysis.Scripting.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/netstandard2.0/zh-Hant/Microsoft.CodeAnalysis.Scripting.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Microsoft.CSharp/4.7.0": {},
+      "Microsoft.DotNet.PlatformAbstractions/3.1.6": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.DotNet.PlatformAbstractions.dll": {
+            "assemblyVersion": "3.1.6.0",
+            "fileVersion": "3.100.620.31604"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyModel/6.0.0": {
+        "dependencies": {
+          "System.Buffers": "4.5.1",
+          "System.Memory": "4.5.5",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0",
+          "System.Text.Encodings.Web": "6.0.0",
+          "System.Text.Json": "6.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyModel.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/2.1.2": {},
+      "Microsoft.NETCore.Targets/1.0.1": {},
+      "Microsoft.Win32.SystemEvents/4.5.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.1.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp2.0/Microsoft.Win32.SystemEvents.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
+      "Silk.NET.Core/2.16.0": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0",
+          "Microsoft.DotNet.PlatformAbstractions": "3.1.6",
+          "Microsoft.Extensions.DependencyModel": "6.0.0",
+          "System.Memory": "4.5.5",
+          "System.Numerics.Vectors": "4.5.0",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Silk.NET.Core.dll": {
+            "assemblyVersion": "2.16.0.0",
+            "fileVersion": "2.16.0.0"
+          }
+        }
+      },
+      "Silk.NET.Maths/2.16.0": {
+        "runtime": {
+          "lib/net5.0/Silk.NET.Maths.dll": {
+            "assemblyVersion": "2.16.0.0",
+            "fileVersion": "2.16.0.0"
+          }
+        }
+      },
+      "Silk.NET.OpenGL/2.16.0": {
+        "dependencies": {
+          "Silk.NET.Core": "2.16.0",
+          "Silk.NET.Maths": "2.16.0"
+        },
+        "runtime": {
+          "lib/net5.0/Silk.NET.OpenGL.dll": {
+            "assemblyVersion": "2.16.0.0",
+            "fileVersion": "2.16.0.0"
+          }
+        }
+      },
+      "SkiaSharp/2.88.1-preview.108": {
+        "dependencies": {
+          "SkiaSharp.NativeAssets.Win32": "2.88.1-preview.108",
+          "SkiaSharp.NativeAssets.macOS": "2.88.1-preview.108"
+        },
+        "runtime": {
+          "lib/net6.0/SkiaSharp.dll": {
+            "assemblyVersion": "2.88.0.0",
+            "fileVersion": "2.88.1.0"
+          }
+        }
+      },
+      "SkiaSharp.NativeAssets.Linux/2.88.1-preview.108": {
+        "dependencies": {
+          "SkiaSharp": "2.88.1-preview.108"
+        },
+        "runtimeTargets": {
+          "runtimes/linux-arm/native/libSkiaSharp.so": {
+            "rid": "linux-arm",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-arm64/native/libSkiaSharp.so": {
+            "rid": "linux-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-musl-x64/native/libSkiaSharp.so": {
+            "rid": "linux-musl-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libSkiaSharp.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "SkiaSharp.NativeAssets.macOS/2.88.1-preview.108": {
+        "runtimeTargets": {
+          "runtimes/osx/native/libSkiaSharp.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "SkiaSharp.NativeAssets.WebAssembly/2.88.1-preview.108": {},
+      "SkiaSharp.NativeAssets.Win32/2.88.1-preview.108": {
+        "runtimeTargets": {
+          "runtimes/win-arm64/native/libSkiaSharp.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/libSkiaSharp.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/libSkiaSharp.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "System.Buffers/4.5.1": {},
+      "System.Collections.Immutable/1.5.0": {},
+      "System.ComponentModel.Annotations/4.5.0": {},
+      "System.Drawing.Common/4.5.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.1.2",
+          "Microsoft.Win32.SystemEvents": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Drawing.Common.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp2.0/System.Drawing.Common.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.6.26515.6"
+          },
+          "runtimes/win/lib/netcoreapp2.0/System.Drawing.Common.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
+      "System.Memory/4.5.5": {},
+      "System.Numerics.Vectors/4.5.0": {},
+      "System.Reactive/5.0.0": {
+        "runtime": {
+          "lib/net5.0/System.Reactive.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.1"
+          }
+        }
+      },
+      "System.Reflection.Emit/4.7.0": {},
+      "System.Reflection.Metadata/1.6.0": {},
+      "System.Runtime/4.1.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.1.2",
+          "Microsoft.NETCore.Targets": "1.0.1"
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
+      "System.Security.Principal.Windows/4.7.0": {},
+      "System.Text.Encoding.CodePages/4.5.1": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.1.2",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        }
+      },
+      "System.Text.Encodings.Web/6.0.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        }
+      },
+      "System.Text.Json/6.0.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0",
+          "System.Text.Encodings.Web": "6.0.0"
+        }
+      },
+      "System.Threading.Tasks.Extensions/4.5.3": {},
+      "System.ValueTuple/4.5.0": {},
+      "Tmds.DBus/0.9.0": {
+        "dependencies": {
+          "System.Reflection.Emit": "4.7.0",
+          "System.Security.Principal.Windows": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Tmds.DBus.dll": {
+            "assemblyVersion": "0.9.0.0",
+            "fileVersion": "0.9.0.0"
+          }
+        }
+      },
+      "XamlNameReferenceGenerator/1.6.1": {},
+      "FFmpegPlayerSharp/1.0.0": {
+        "dependencies": {
+          "FFmpeg.AutoGen": "4.4.1.1"
+        },
+        "runtime": {
+          "FFmpegPlayerSharp.dll": {}
+        }
+      },
+      "OpenGLPlayer/1.0.0": {
+        "dependencies": {
+          "Avalonia": "0.10.19",
+          "Silk.NET.OpenGL": "2.16.0"
+        },
+        "runtime": {
+          "OpenGLPlayer.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RtspPlayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Avalonia/0.10.19": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KgT8O+uE9sZdsjr2J5VQo+55raPeQAhdiHjSic300P3EJMsjjdjC132O0ERGRWf7OSDcskqnDstnuop0fMGhLg==",
+      "path": "avalonia/0.10.19",
+      "hashPath": "avalonia.0.10.19.nupkg.sha512"
+    },
+    "Avalonia.Angle.Windows.Natives/2.1.0.2020091801": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nGsCPI8FuUknU/e6hZIqlsKRDxClXHZyztmgM8vuwslFC/BIV3LqM2wKefWbr6SORX4Lct4nivhSMkdF/TrKgg==",
+      "path": "avalonia.angle.windows.natives/2.1.0.2020091801",
+      "hashPath": "avalonia.angle.windows.natives.2.1.0.2020091801.nupkg.sha512"
+    },
+    "Avalonia.Controls.DataGrid/0.10.19": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-s1xlpkkjyC2cVHI/ZY57GRvTsYVk+qPs+qQPYa88ehH5WcMyvgQjKu8SvzVjLSegMKb28NJO7b203Zu3NoDC4A==",
+      "path": "avalonia.controls.datagrid/0.10.19",
+      "hashPath": "avalonia.controls.datagrid.0.10.19.nupkg.sha512"
+    },
+    "Avalonia.Desktop/0.10.19": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1lh31kgndZfaDAQre4jT0WrAdRGWIe+j6eeAjG6O8g1kl4s+ppzpnXH9xINd2upjKibQLMLrCc5/BWVKakZKLA==",
+      "path": "avalonia.desktop/0.10.19",
+      "hashPath": "avalonia.desktop.0.10.19.nupkg.sha512"
+    },
+    "Avalonia.Diagnostics/0.10.19": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eV5bhAs7N6opgo5B2irNBrEpU3e+Rd+P5UtxYf7qnbHFD0i0JOTMTSUAW9heWMbj9kV97BvVPX9fP0V1rse1sw==",
+      "path": "avalonia.diagnostics/0.10.19",
+      "hashPath": "avalonia.diagnostics.0.10.19.nupkg.sha512"
+    },
+    "Avalonia.FreeDesktop/0.10.19": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bBj8Sz3TBrNLWR4JyYv35T2+0xI2nP87Xma0nryELtFhb00hSdfiAEB6pXGQz4bGEDlPtDCC/g1o8RyctUHOLA==",
+      "path": "avalonia.freedesktop/0.10.19",
+      "hashPath": "avalonia.freedesktop.0.10.19.nupkg.sha512"
+    },
+    "Avalonia.Native/0.10.19": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KTxMewYzDJ3/BG+flb+co6yXShGhk8kh52T/9ktPh06HVsOWFGNsA3CHUDGiE5/UgCP5oim1xAef+pAzlkBvWw==",
+      "path": "avalonia.native/0.10.19",
+      "hashPath": "avalonia.native.0.10.19.nupkg.sha512"
+    },
+    "Avalonia.Remote.Protocol/0.10.19": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DjwS7k4tNzvEHvqnQqO0YT/mc2Z/gpFllHqN6kr+yoVIrXOKZegvwDl3dwpD/zXXP0Q4oMcZJFn1H36ZeO0wtQ==",
+      "path": "avalonia.remote.protocol/0.10.19",
+      "hashPath": "avalonia.remote.protocol.0.10.19.nupkg.sha512"
+    },
+    "Avalonia.Skia/0.10.19": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZpZLu4qsctmzEMnkYj40b9izQBiYCT/bBC56evUgn78mOqTWtqAoPzqRg5yvLV11quRbqRNnXTXv2wGZC3njxA==",
+      "path": "avalonia.skia/0.10.19",
+      "hashPath": "avalonia.skia.0.10.19.nupkg.sha512"
+    },
+    "Avalonia.Win32/0.10.19": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fp1NLhfo/pKe/R/EnYphQ7o/G3VXp116DCynCQjIgx8UnXY78mcz28fQkp0gyMJbejCpgYbyV2ED1x5ZMa/k5g==",
+      "path": "avalonia.win32/0.10.19",
+      "hashPath": "avalonia.win32.0.10.19.nupkg.sha512"
+    },
+    "Avalonia.X11/0.10.19": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aAm0s/dGfoKO/Q0/semsjC29s26M3NP7oBg/I2pIt4d+Uag6mO/UF8WDJM7b+a0t4ohfkWj2FzWSsyjuL+HGbQ==",
+      "path": "avalonia.x11/0.10.19",
+      "hashPath": "avalonia.x11.0.10.19.nupkg.sha512"
+    },
+    "FFmpeg.AutoGen/4.4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UclXDnnMij9eNYUTrBO0y591ZTJLqjXNnNkNgahQa2ZUaAhn4gkDSfT9BszicCoyX1CZpDI5o8d8lkgmMlNU+Q==",
+      "path": "ffmpeg.autogen/4.4.1.1",
+      "hashPath": "ffmpeg.autogen.4.4.1.1.nupkg.sha512"
+    },
+    "HarfBuzzSharp/2.8.2.1-preview.108": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vo2eE1jLvYWrfeghYAzkfHr7GNtWsay2ODfufavz8xReOZ648a2sBggSjTU02DQU5EPBSOhKxDnkqnUVWA8xkg==",
+      "path": "harfbuzzsharp/2.8.2.1-preview.108",
+      "hashPath": "harfbuzzsharp.2.8.2.1-preview.108.nupkg.sha512"
+    },
+    "HarfBuzzSharp.NativeAssets.Linux/2.8.2.1-preview.108": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kRjP0sub39GxY7/YUoWwMAvltH+i+0+HvG6ND1v1iWAeBbAwcBFnPfT6FQDBqdnEaeYQT6y8FxMn9phOND7Kyg==",
+      "path": "harfbuzzsharp.nativeassets.linux/2.8.2.1-preview.108",
+      "hashPath": "harfbuzzsharp.nativeassets.linux.2.8.2.1-preview.108.nupkg.sha512"
+    },
+    "HarfBuzzSharp.NativeAssets.macOS/2.8.2.1-preview.108": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pDw8R6ndu8usa9unSqEZrl3RbUNw2AzqAkcJTkocA15dxBpHvaaVKqgEozTLfye0/l5s0YgYAb4WpcY4qBg6Pw==",
+      "path": "harfbuzzsharp.nativeassets.macos/2.8.2.1-preview.108",
+      "hashPath": "harfbuzzsharp.nativeassets.macos.2.8.2.1-preview.108.nupkg.sha512"
+    },
+    "HarfBuzzSharp.NativeAssets.WebAssembly/2.8.2.1-preview.108": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BSgvS7jHt/UMoFRpVNxLcQhPFbNN/KRt/ntKH5Jo64gCpLwBzRF8Pv2mzKI2xQ3KKp+x/n1e6MAug3umls+wUA==",
+      "path": "harfbuzzsharp.nativeassets.webassembly/2.8.2.1-preview.108",
+      "hashPath": "harfbuzzsharp.nativeassets.webassembly.2.8.2.1-preview.108.nupkg.sha512"
+    },
+    "HarfBuzzSharp.NativeAssets.Win32/2.8.2.1-preview.108": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0ws24k21iRH2GRiOLEcG6ESl+VROOwaeHnC0vqKQChGmreGTJ//JBQJqIu189oY30G0NVdypDe1UwFA/scjBAw==",
+      "path": "harfbuzzsharp.nativeassets.win32/2.8.2.1-preview.108",
+      "hashPath": "harfbuzzsharp.nativeassets.win32.2.8.2.1-preview.108.nupkg.sha512"
+    },
+    "JetBrains.Annotations/10.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0GLU9lwGVXjUNlr9ZIdAgjqLI2Zm/XFGJFaqJ1T1sU+kwfeMLhm68+rblUrNUP9psRl4i8yM7Ghb4ia4oI2E5g==",
+      "path": "jetbrains.annotations/10.3.0",
+      "hashPath": "jetbrains.annotations.10.3.0.nupkg.sha512"
+    },
+    "Microsoft.CodeAnalysis.Analyzers/2.9.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Kmms3TxGQMNb95Cu/3K+0bIcMnV4qf/phZBLAB0HUi65rBPxP4JO3aM2LoAcb+DFS600RQJMZ7ZLyYDTbLwJOQ==",
+      "path": "microsoft.codeanalysis.analyzers/2.9.6",
+      "hashPath": "microsoft.codeanalysis.analyzers.2.9.6.nupkg.sha512"
+    },
+    "Microsoft.CodeAnalysis.Common/3.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3ncA7cV+iXGA1VYwe2UEZXcvWyZSlbexWjM9AvocP7sik5UD93qt9Hq0fMRGk0jFRmvmE4T2g+bGfXiBVZEhLw==",
+      "path": "microsoft.codeanalysis.common/3.4.0",
+      "hashPath": "microsoft.codeanalysis.common.3.4.0.nupkg.sha512"
+    },
+    "Microsoft.CodeAnalysis.CSharp/3.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/LsTtgcMN6Tu1oo7/WYbRAHL4/ubXC/miEakwTpcZKJKtFo7D0AK95Hw0dbGxul6C8WJu60v6NP2435TDYZM+Q==",
+      "path": "microsoft.codeanalysis.csharp/3.4.0",
+      "hashPath": "microsoft.codeanalysis.csharp.3.4.0.nupkg.sha512"
+    },
+    "Microsoft.CodeAnalysis.CSharp.Scripting/3.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tLgqc76qXHmONUhWhxo7z3TcL/LmGFWIUJm1exbQmVJohuQvJnejUMxmVkdxDfMuMZU1fIyJXPZ6Fkp4FEneAg==",
+      "path": "microsoft.codeanalysis.csharp.scripting/3.4.0",
+      "hashPath": "microsoft.codeanalysis.csharp.scripting.3.4.0.nupkg.sha512"
+    },
+    "Microsoft.CodeAnalysis.Scripting.Common/3.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+b6I3DZL2zvck+B/E/aiOveakj5U2G2BcYODQxcGh2IDbatNU3XXxGT1HumkWB5uIZI2Leu0opBgBpjScmjGMA==",
+      "path": "microsoft.codeanalysis.scripting.common/3.4.0",
+      "hashPath": "microsoft.codeanalysis.scripting.common.3.4.0.nupkg.sha512"
+    },
+    "Microsoft.CSharp/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "path": "microsoft.csharp/4.7.0",
+      "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
+    },
+    "Microsoft.DotNet.PlatformAbstractions/3.1.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jek4XYaQ/PGUwDKKhwR8K47Uh1189PFzMeLqO83mXrXQVIpARZCcfuDedH50YDTepBkfijCZN5U/vZi++erxtg==",
+      "path": "microsoft.dotnet.platformabstractions/3.1.6",
+      "hashPath": "microsoft.dotnet.platformabstractions.3.1.6.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyModel/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TD5QHg98m3+QhgEV1YVoNMl5KtBw/4rjfxLHO0e/YV9bPUBDKntApP4xdrVtGgCeQZHVfC2EXIGsdpRNrr87Pg==",
+      "path": "microsoft.extensions.dependencymodel/6.0.0",
+      "hashPath": "microsoft.extensions.dependencymodel.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/2.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mOJy3M0UN+LUG21dLGMxaWZEP6xYpQEpLuvuEQBaownaX4YuhH6NmNUlN9si+vNkAS6dwJ//N1O4DmLf2CikVg==",
+      "path": "microsoft.netcore.platforms/2.1.2",
+      "hashPath": "microsoft.netcore.platforms.2.1.2.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Targets/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rkn+fKobF/cbWfnnfBOQHKVKIOpxMZBvlSHkqDWgBpwGDcLRduvs3D9OLGeV6GWGvVwNlVi2CBbTjuPmtHvyNw==",
+      "path": "microsoft.netcore.targets/1.0.1",
+      "hashPath": "microsoft.netcore.targets.1.0.1.nupkg.sha512"
+    },
+    "Microsoft.Win32.SystemEvents/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LuI1oG+24TUj1ZRQQjM5Ew73BKnZE5NZ/7eAdh1o8ST5dPhUnJvIkiIn2re3MwnkRy6ELRnvEbBxHP8uALKhJw==",
+      "path": "microsoft.win32.systemevents/4.5.0",
+      "hashPath": "microsoft.win32.systemevents.4.5.0.nupkg.sha512"
+    },
+    "Silk.NET.Core/2.16.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9lU5QtE9SGaDtzj817Kp4td9jF2XsDwevzjmoEA7Fxp2t5uM4KDVAns4YgNT15J87v+mg3bxG7fK4aVSMkfbLA==",
+      "path": "silk.net.core/2.16.0",
+      "hashPath": "silk.net.core.2.16.0.nupkg.sha512"
+    },
+    "Silk.NET.Maths/2.16.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Xjw9Fw/DQ0zVgJL5FUBH04qMp+vEfoHd71PrnrGwsRmopwEK4KKLuMYLVN/tKLvq5Mfh0Qd0bItOb26MyIJ/7g==",
+      "path": "silk.net.maths/2.16.0",
+      "hashPath": "silk.net.maths.2.16.0.nupkg.sha512"
+    },
+    "Silk.NET.OpenGL/2.16.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SOE1lTWjMr+ThA+90XJ7MrKgygVm8ozOx4IWA1mX+7is9XSML8SaOO9FhmQgGhLbY8sPvOpiFbUhICZNXrMpFw==",
+      "path": "silk.net.opengl/2.16.0",
+      "hashPath": "silk.net.opengl.2.16.0.nupkg.sha512"
+    },
+    "SkiaSharp/2.88.1-preview.108": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Zfs4qdQuvLsdSdBa42CnD8Dlcnkr46GaaFEwouzrjOLse8DmKkf/zBaCFCUkNIjGDZFkjFGe/ai5qHYkMcXIsg==",
+      "path": "skiasharp/2.88.1-preview.108",
+      "hashPath": "skiasharp.2.88.1-preview.108.nupkg.sha512"
+    },
+    "SkiaSharp.NativeAssets.Linux/2.88.1-preview.108": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1aOmUqcuzXJP0FaDL5JPRx7FbLFbiyl5R2lI1YwTTfXTpawnPxpPXlBClj+CuRrSS5Azfn8k3ZIHPHTd37vOWw==",
+      "path": "skiasharp.nativeassets.linux/2.88.1-preview.108",
+      "hashPath": "skiasharp.nativeassets.linux.2.88.1-preview.108.nupkg.sha512"
+    },
+    "SkiaSharp.NativeAssets.macOS/2.88.1-preview.108": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nz+Ege0i1aCicLnaHOBzuTBj5LnLxlZVxLv+wUEtOXaAHq6of7kxaE+/+4KC1OBnKs64L8WDGf88VC2fIC/zxw==",
+      "path": "skiasharp.nativeassets.macos/2.88.1-preview.108",
+      "hashPath": "skiasharp.nativeassets.macos.2.88.1-preview.108.nupkg.sha512"
+    },
+    "SkiaSharp.NativeAssets.WebAssembly/2.88.1-preview.108": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mVXV6XulqCZ5eXzWhLAdhl1CWvaYnCJEusADuS0WZ3CdzgPZl8gqfyRzM3KMrMfkaJVh/L4n3VVDnbxQw5YSvA==",
+      "path": "skiasharp.nativeassets.webassembly/2.88.1-preview.108",
+      "hashPath": "skiasharp.nativeassets.webassembly.2.88.1-preview.108.nupkg.sha512"
+    },
+    "SkiaSharp.NativeAssets.Win32/2.88.1-preview.108": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-98r2fGVjPNjIhH0ooHtvAcqsHUjWZPEkqrfpynZNWdo8gkUPZhENvOodDtvBNUW6we24Bo4aWCnGbJuhyn//ug==",
+      "path": "skiasharp.nativeassets.win32/2.88.1-preview.108",
+      "hashPath": "skiasharp.nativeassets.win32.2.88.1-preview.108.nupkg.sha512"
+    },
+    "System.Buffers/4.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Rw7ijyl1qqRS0YQD/WycNst8hUUMgrMH4FCn1nNm27M4VxchZ1js3fVjQaANHO5f3sN4isvP4a+Met9Y4YomAg==",
+      "path": "system.buffers/4.5.1",
+      "hashPath": "system.buffers.4.5.1.nupkg.sha512"
+    },
+    "System.Collections.Immutable/1.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EXKiDFsChZW0RjrZ4FYHu9aW6+P4MCgEDCklsVseRfhoO0F+dXeMSsMRAlVXIo06kGJ/zv+2w1a2uc2+kxxSaQ==",
+      "path": "system.collections.immutable/1.5.0",
+      "hashPath": "system.collections.immutable.1.5.0.nupkg.sha512"
+    },
+    "System.ComponentModel.Annotations/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UxYQ3FGUOtzJ7LfSdnYSFd7+oEv6M8NgUatatIN2HxNtDdlcvFAf+VIq4Of9cDMJEJC0aSRv/x898RYhB4Yppg==",
+      "path": "system.componentmodel.annotations/4.5.0",
+      "hashPath": "system.componentmodel.annotations.4.5.0.nupkg.sha512"
+    },
+    "System.Drawing.Common/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AiJFxxVPdeITstiRS5aAu8+8Dpf5NawTMoapZ53Gfirml24p7HIfhjmCRxdXnmmf3IUA3AX3CcW7G73CjWxW/Q==",
+      "path": "system.drawing.common/4.5.0",
+      "hashPath": "system.drawing.common.4.5.0.nupkg.sha512"
+    },
+    "System.Memory/4.5.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XIWiDvKPXaTveaB7HVganDlOCRoj03l+jrwNvcge/t8vhGYKvqV+dMv6G4SAX2NoNmN0wZfVPTAlFwZcZvVOUw==",
+      "path": "system.memory/4.5.5",
+      "hashPath": "system.memory.4.5.5.nupkg.sha512"
+    },
+    "System.Numerics.Vectors/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
+      "path": "system.numerics.vectors/4.5.0",
+      "hashPath": "system.numerics.vectors.4.5.0.nupkg.sha512"
+    },
+    "System.Reactive/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-erBZjkQHWL9jpasCE/0qKAryzVBJFxGHVBAvgRN1bzM0q2s1S4oYREEEL0Vb+1kA/6BKb5FjUZMp5VXmy+gzkQ==",
+      "path": "system.reactive/5.0.0",
+      "hashPath": "system.reactive.5.0.0.nupkg.sha512"
+    },
+    "System.Reflection.Emit/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VR4kk8XLKebQ4MZuKuIni/7oh+QGFmZW3qORd1GvBq/8026OpW501SzT/oypwiQl4TvT8ErnReh/NzY9u+C6wQ==",
+      "path": "system.reflection.emit/4.7.0",
+      "hashPath": "system.reflection.emit.4.7.0.nupkg.sha512"
+    },
+    "System.Reflection.Metadata/1.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-COC1aiAJjCoA5GBF+QKL2uLqEBew4JsCkQmoHKbN3TlOZKa2fKLz5CpiRQKDz0RsAOEGsVKqOD5bomsXq/4STQ==",
+      "path": "system.reflection.metadata/1.6.0",
+      "hashPath": "system.reflection.metadata.1.6.0.nupkg.sha512"
+    },
+    "System.Runtime/4.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-v6c/4Yaa9uWsq+JMhnOFewrYkgdNHNG2eMKuNqRn8P733rNXeRCGvV5FkkjBXn2dbVkPXOsO0xjsEeM1q2zC0g==",
+      "path": "system.runtime/4.1.0",
+      "hashPath": "system.runtime.4.1.0.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
+      "path": "system.runtime.compilerservices.unsafe/6.0.0",
+      "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    },
+    "System.Security.Principal.Windows/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ojD0PX0XhneCsUbAZVKdb7h/70vyYMDYs85lwEI+LngEONe/17A0cFaRFqZU+sOEidcVswYWikYOQ9PPfjlbtQ==",
+      "path": "system.security.principal.windows/4.7.0",
+      "hashPath": "system.security.principal.windows.4.7.0.nupkg.sha512"
+    },
+    "System.Text.Encoding.CodePages/4.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4J2JQXbftjPMppIHJ7IC+VXQ9XfEagN92vZZNoG12i+zReYlim5dMoXFC1Zzg7tsnKDM7JPo5bYfFK4Jheq44w==",
+      "path": "system.text.encoding.codepages/4.5.1",
+      "hashPath": "system.text.encoding.codepages.4.5.1.nupkg.sha512"
+    },
+    "System.Text.Encodings.Web/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Vg8eB5Tawm1IFqj4TVK1czJX89rhFxJo9ELqc/Eiq0eXy13RK00eubyU6TJE6y+GQXjyV5gSfiewDUZjQgSE0w==",
+      "path": "system.text.encodings.web/6.0.0",
+      "hashPath": "system.text.encodings.web.6.0.0.nupkg.sha512"
+    },
+    "System.Text.Json/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zaJsHfESQvJ11vbXnNlkrR46IaMULk/gHxYsJphzSF+07kTjPHv+Oc14w6QEOfo3Q4hqLJgStUaYB9DBl0TmWg==",
+      "path": "system.text.json/6.0.0",
+      "hashPath": "system.text.json.6.0.0.nupkg.sha512"
+    },
+    "System.Threading.Tasks.Extensions/4.5.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+MvhNtcvIbqmhANyKu91jQnvIRVSTiaOiFNfKWwXGHG48YAb4I/TyH8spsySiPYla7gKal5ZnF3teJqZAximyQ==",
+      "path": "system.threading.tasks.extensions/4.5.3",
+      "hashPath": "system.threading.tasks.extensions.4.5.3.nupkg.sha512"
+    },
+    "System.ValueTuple/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-okurQJO6NRE/apDIP23ajJ0hpiNmJ+f0BwOlB/cSqTLQlw5upkf+5+96+iG2Jw40G1fCVCyPz/FhIABUjMR+RQ==",
+      "path": "system.valuetuple/4.5.0",
+      "hashPath": "system.valuetuple.4.5.0.nupkg.sha512"
+    },
+    "Tmds.DBus/0.9.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KcTWL9aKuob9Qo2sOTTKFePs1rKGTwZrcBvMFuGVIVR5RojX3oIFj5UBLYfSGjYgrcImC7LjQI3DdCFwUnhNXw==",
+      "path": "tmds.dbus/0.9.0",
+      "hashPath": "tmds.dbus.0.9.0.nupkg.sha512"
+    },
+    "XamlNameReferenceGenerator/1.6.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0LIETu9UzdHK8K/PmPn69dKtrjoPD1xz9eUPFjpRxn+O/YKY4UwjOILtthWh0HfM/Jcz+qTgoAMwde7SdFEHUg==",
+      "path": "xamlnamereferencegenerator/1.6.1",
+      "hashPath": "xamlnamereferencegenerator.1.6.1.nupkg.sha512"
+    },
+    "FFmpegPlayerSharp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OpenGLPlayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

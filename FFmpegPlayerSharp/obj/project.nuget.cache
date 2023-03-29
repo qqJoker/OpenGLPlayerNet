@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "cFgiLQLyceOKVVWe39hRov8xX21QFIq4btGFsQtud+fEp+luTtDD7pGv/SVBxi29QsFifmaSDwtfLo3mMSJTeQ==",
+  "success": true,
+  "projectFilePath": "E:\\Project\\ItcProject\\MultiPlatform\\RtspPlayer\\FFmpegPlayerSharp\\FFmpegPlayerSharp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\zhaol\\.nuget\\packages\\ffmpeg.autogen\\4.4.1.1\\ffmpeg.autogen.4.4.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}

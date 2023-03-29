@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "dgSpecHash": "GciMP+VT2SUjHDioCP7ey0qq9dOyRbfTHRyqlM4KZHHXDjauIOTorabLOq27/hpmL5BIgbvf+CzcoggeL+F4pQ==",
+  "success": true,
+  "projectFilePath": "E:\\Project\\ItcProject\\MultiPlatform\\RtspPlayer\\OpenGLPlayer\\OpenGLPlayer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\zhaol\\.nuget\\packages\\avalonia\\0.10.19\\avalonia.0.10.19.nupkg.sha512",
+    "C:\\Users\\zhaol\\.nuget\\packages\\avalonia.remote.protocol\\0.10.19\\avalonia.remote.protocol.0.10.19.nupkg.sha512",
+    "C:\\Users\\zhaol\\.nuget\\packages\\ffmpeg.autogen\\4.4.1.1\\ffmpeg.autogen.4.4.1.1.nupkg.sha512",
+    "C:\\Users\\zhaol\\.nuget\\packages\\jetbrains.annotations\\10.3.0\\jetbrains.annotations.10.3.0.nupkg.sha512",
+    "C:\\Users\\zhaol\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\zhaol\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\3.1.6\\microsoft.dotnet.platformabstractions.3.1.6.nupkg.sha512",
+    "C:\\Users\\zhaol\\.nuget\\packages\\microsoft.extensions.dependencymodel\\6.0.0\\microsoft.extensions.dependencymodel.6.0.0.nupkg.sha512",
+    "C:\\Users\\zhaol\\.nuget\\packages\\microsoft.netcore.platforms\\1.0.1\\microsoft.netcore.platforms.1.0.1.nupkg.sha512",
+    "C:\\Users\\zhaol\\.nuget\\packages\\microsoft.netcore.targets\\1.0.1\\microsoft.netcore.targets.1.0.1.nupkg.sha512",
+    "C:\\Users\\zhaol\\.nuget\\packages\\silk.net.core\\2.16.0\\silk.net.core.2.16.0.nupkg.sha512",
+    "C:\\Users\\zhaol\\.nuget\\packages\\silk.net.maths\\2.16.0\\silk.net.maths.2.16.0.nupkg.sha512",
+    "C:\\Users\\zhaol\\.nuget\\packages\\silk.net.opengl\\2.16.0\\silk.net.opengl.2.16.0.nupkg.sha512",
+    "C:\\Users\\zhaol\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\zhaol\\.nuget\\packages\\system.componentmodel.annotations\\4.5.0\\system.componentmodel.annotations.4.5.0.nupkg.sha512",
+    "C:\\Users\\zhaol\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\zhaol\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\zhaol\\.nuget\\packages\\system.reactive\\5.0.0\\system.reactive.5.0.0.nupkg.sha512",
+    "C:\\Users\\zhaol\\.nuget\\packages\\system.runtime\\4.1.0\\system.runtime.4.1.0.nupkg.sha512",
+    "C:\\Users\\zhaol\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\zhaol\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
+    "C:\\Users\\zhaol\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512",
+    "C:\\Users\\zhaol\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

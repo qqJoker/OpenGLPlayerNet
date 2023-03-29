@@ -1,0 +1,233 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Project\\ItcProject\\MultiPlatform\\RtspPlayer\\RtspPlayer\\RtspPlayer.csproj": {}
+  },
+  "projects": {
+    "E:\\Project\\ItcProject\\MultiPlatform\\RtspPlayer\\FFmpegPlayerSharp\\FFmpegPlayerSharp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Project\\ItcProject\\MultiPlatform\\RtspPlayer\\FFmpegPlayerSharp\\FFmpegPlayerSharp.csproj",
+        "projectName": "FFmpegPlayerSharp",
+        "projectPath": "E:\\Project\\ItcProject\\MultiPlatform\\RtspPlayer\\FFmpegPlayerSharp\\FFmpegPlayerSharp.csproj",
+        "packagesPath": "C:\\Users\\zhaol\\.nuget\\packages\\",
+        "outputPath": "E:\\Project\\ItcProject\\MultiPlatform\\RtspPlayer\\FFmpegPlayerSharp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Developments\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\zhaol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FFmpeg.AutoGen": {
+              "target": "Package",
+              "version": "[4.4.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Project\\ItcProject\\MultiPlatform\\RtspPlayer\\OpenGLPlayer\\OpenGLPlayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Project\\ItcProject\\MultiPlatform\\RtspPlayer\\OpenGLPlayer\\OpenGLPlayer.csproj",
+        "projectName": "OpenGLPlayer",
+        "projectPath": "E:\\Project\\ItcProject\\MultiPlatform\\RtspPlayer\\OpenGLPlayer\\OpenGLPlayer.csproj",
+        "packagesPath": "C:\\Users\\zhaol\\.nuget\\packages\\",
+        "outputPath": "E:\\Project\\ItcProject\\MultiPlatform\\RtspPlayer\\OpenGLPlayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Developments\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\zhaol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\Project\\ItcProject\\MultiPlatform\\RtspPlayer\\FFmpegPlayerSharp\\FFmpegPlayerSharp.csproj": {
+                "projectPath": "E:\\Project\\ItcProject\\MultiPlatform\\RtspPlayer\\FFmpegPlayerSharp\\FFmpegPlayerSharp.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Avalonia": {
+              "target": "Package",
+              "version": "[0.10.19, )"
+            },
+            "Silk.NET.OpenGL": {
+              "target": "Package",
+              "version": "[2.16.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Project\\ItcProject\\MultiPlatform\\RtspPlayer\\RtspPlayer\\RtspPlayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Project\\ItcProject\\MultiPlatform\\RtspPlayer\\RtspPlayer\\RtspPlayer.csproj",
+        "projectName": "RtspPlayer",
+        "projectPath": "E:\\Project\\ItcProject\\MultiPlatform\\RtspPlayer\\RtspPlayer\\RtspPlayer.csproj",
+        "packagesPath": "C:\\Users\\zhaol\\.nuget\\packages\\",
+        "outputPath": "E:\\Project\\ItcProject\\MultiPlatform\\RtspPlayer\\RtspPlayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Developments\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\zhaol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\Project\\ItcProject\\MultiPlatform\\RtspPlayer\\FFmpegPlayerSharp\\FFmpegPlayerSharp.csproj": {
+                "projectPath": "E:\\Project\\ItcProject\\MultiPlatform\\RtspPlayer\\FFmpegPlayerSharp\\FFmpegPlayerSharp.csproj"
+              },
+              "E:\\Project\\ItcProject\\MultiPlatform\\RtspPlayer\\OpenGLPlayer\\OpenGLPlayer.csproj": {
+                "projectPath": "E:\\Project\\ItcProject\\MultiPlatform\\RtspPlayer\\OpenGLPlayer\\OpenGLPlayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Avalonia": {
+              "target": "Package",
+              "version": "[0.10.19, )"
+            },
+            "Avalonia.Desktop": {
+              "target": "Package",
+              "version": "[0.10.19, )"
+            },
+            "Avalonia.Diagnostics": {
+              "target": "Package",
+              "version": "[0.10.19, )"
+            },
+            "XamlNameReferenceGenerator": {
+              "target": "Package",
+              "version": "[1.6.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

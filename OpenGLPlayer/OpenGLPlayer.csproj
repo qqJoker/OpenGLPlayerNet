@@ -1,0 +1,53 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+      <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+      <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Avalonia" Version="0.10.19" />
+      <PackageReference Include="Silk.NET.OpenGL" Version="2.16.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="GLSL\Shader.frag">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="GLSL\Shader.vert">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <None Remove="Shader.frag" />
+      <None Remove="Shader.vert" />
+      <None Remove="GLSL\FFmpegShader.frag" />
+      <None Remove="GLSL\FFmpegShader.vert" />
+      <None Remove="GLSL\RgbaShader.vert" />
+      <Content Include="GLSL\RgbaShader.vert">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <None Remove="GLSL\RgbaShader.frag" />
+      <Content Include="GLSL\RgbaShader.frag">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <None Update="GLSL\YUVShader.frag">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="GLSL\YUVShader.vert">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\FFmpegPlayerSharp\FFmpegPlayerSharp.csproj" />
+    </ItemGroup>
+
+</Project>

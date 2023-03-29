@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "FFmpegPlayerSharp/1.0.0": {
+        "dependencies": {
+          "FFmpeg.AutoGen": "4.4.1.1"
+        },
+        "runtime": {
+          "FFmpegPlayerSharp.dll": {}
+        }
+      },
+      "FFmpeg.AutoGen/4.4.1.1": {
+        "runtime": {
+          "lib/netstandard2.1/FFmpeg.AutoGen.dll": {
+            "assemblyVersion": "4.4.1.1",
+            "fileVersion": "4.4.1.1"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FFmpegPlayerSharp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FFmpeg.AutoGen/4.4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UclXDnnMij9eNYUTrBO0y591ZTJLqjXNnNkNgahQa2ZUaAhn4gkDSfT9BszicCoyX1CZpDI5o8d8lkgmMlNU+Q==",
+      "path": "ffmpeg.autogen/4.4.1.1",
+      "hashPath": "ffmpeg.autogen.4.4.1.1.nupkg.sha512"
+    }
+  }
+}
